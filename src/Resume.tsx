@@ -1,15 +1,15 @@
 import resumeJson from './assets/resume.json'
+import Link from '@mui/material/Link'
+import Typography from '@mui/material/Typography'
 
 export default function Resume() {
     return (
         <>
             <div>
-                <h2>{resumeJson.basicInfo.name}</h2>
-                <p>
-                    <a href={resumeJson.basicInfo.linkedIn}>LinkedIn</a>
-                    <br />
-                    <a href={resumeJson.basicInfo.website}>mattmayo.com</a>
-                </p>
+                <Typography variant="h4">{resumeJson.basicInfo.name}</Typography>
+                <Link variant="body1" href={resumeJson.basicInfo.linkedIn}>LinkedIn</Link>
+                <br />
+                <Link variant="body1" href={resumeJson.basicInfo.website}>mattmayo.com</Link>
             </div>
         </>
     )
