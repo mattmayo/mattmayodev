@@ -1,9 +1,7 @@
 import Resume from './Resume.tsx'
 
 function App() {
-  return (
-    <Resume />
-  )
+  return <Resume />
 }
 
 export default App

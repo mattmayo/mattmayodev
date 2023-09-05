@@ -1,36 +1,35 @@
 {
-    "basicInfo": {
-        "name": "Matt Mayo",
-        "address": {
-            "line1": "100 Cedar Court",
-            "city": "Saint Robert",
-            "state": "Missouri",
-            "zip": "65584"
-        },
-        "email": "me@mattmayo.com",
-        "linkedIn": "https://www.linkedin.com/in/mayomatt/",
-        "website": "https://mattmayo.com"
-
+  "basicInfo": {
+    "name": "Matt Mayo",
+    "address": {
+      "line1": "100 Cedar Court",
+      "city": "Saint Robert",
+      "state": "Missouri",
+      "zip": "65584"
     },
-    "jobs": [
-        {
-            "company": "Hipcamp",
-            "companyAddress": {
-                "line1": "965 Mission St",
-                "line2": "Suite 480",
-                "city": "San Francisco",
-                "state": "California",
-                "zip": "94103"
-            },
-            "myWorkLocation": {
-                "type": "remote"
-            },
-            "website": "https://hipcamp.com",
-            "linkedIn": "https://www.linkedin.com/company/hipcamp/",
-            "role": "Senior Software Engineering Manager",
-            "startDate": "01-01-1999",
-            "endDate": "01-31-1999",
-            "description": "Led globally distributed Host experience engineering teams. Hosts provide land for tent campers, glampers, and RVers. Projects: New improved checkout experience, new tooling and integrations for professional campgrounds, updated data model to support new tooling. Promoted 2 engineers; managed 10 engineers and 2 managers across 3 teams in the US and UK; moved one engineer into managed as a growth opportunity"
-        }
-    ]
+    "email": "me@mattmayo.com",
+    "linkedIn": "https://www.linkedin.com/in/mayomatt/",
+    "website": "https://mattmayo.com"
+  },
+  "jobs": [
+    {
+      "company": "Hipcamp",
+      "companyAddress": {
+        "line1": "965 Mission St",
+        "line2": "Suite 480",
+        "city": "San Francisco",
+        "state": "California",
+        "zip": "94103"
+      },
+      "myWorkLocation": {
+        "type": "remote"
+      },
+      "website": "https://hipcamp.com",
+      "linkedIn": "https://www.linkedin.com/company/hipcamp/",
+      "role": "Senior Software Engineering Manager",
+      "startDate": "01-01-1999",
+      "endDate": "01-31-1999",
+      "description": "Led globally distributed Host experience engineering teams. Hosts provide land for tent campers, glampers, and RVers. Projects: New improved checkout experience, new tooling and integrations for professional campgrounds, updated data model to support new tooling. Promoted 2 engineers; managed 10 engineers and 2 managers across 3 teams in the US and UK; moved one engineer into managed as a growth opportunity"
+    }
+  ]
 }
