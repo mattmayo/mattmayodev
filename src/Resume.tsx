@@ -30,7 +30,7 @@ function displayJobTable(tabValue: number) {
                 <Typography variant="h6">{job.company}</Typography>
                 <Typography variant="body1">{job.role}</Typography>
                 <Typography variant="body2">
-                  <!-- Using replace to address issue with Safari browser not being able to parse date -->
+                  {/* Using replace to address issue with Safari browser not being able to parse date */}
                   {dayjs(job.startDate.replace(/-/g, '/')).format('MMM YYYY')} -{' '}
                   {dayjs(job.endDate.replace(/-/g, '/')).format('MMM YYYY')}
                 </Typography>
