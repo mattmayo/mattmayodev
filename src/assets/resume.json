@@ -30,14 +30,18 @@
       "startDate": "06-21-2022",
       "endDate": "03-01-2023",
       "description": [
-        "Led globally distributed Host experience engineering teams. Hosts provide land for tent campers, glampers, and RVers.",
-        "Projects: New improved checkout experience, new tooling and integrations for professional campgrounds, updated data model to support new tooling.",
-        "Promoted 2 engineers; managed 10 engineers and 2 managers across 3 teams in the US and UK; moved one engineer into managed as a growth opportunity"
+        "Led globally distributed Host experience engineering teams. Similar to Airbnb there are hosts that use the platform. They provide land for tent campers and RVers. They also provide lodgings like cabins or glamping tents."
       ],
       "technicalHighlights": [
-        "Researched integrations such as ResNexus and distilled in technical document that was handed off to a direct report to peform technical design and lead project."
+        "Researched third party host tool integrations that included ResNexus. Third party host tools simply managagment of properties across multiple platforms (Hipcamp, Airbnb, etc.). Distilled research in technical document that was handed off to a direct report to peform technical design and lead project.",
+        "Reviewed architecture and coached senior engineer on system to obfuscate contact info (email and phone number) of campers from hosts. In additiona the improved architecture would reduce costs for our third party provide for texting."
       ],
-      "leadershipHighlights": ["Managed three teams"]
+      "leadershipHighlights": [
+        "Managed three teams across 5 timezones and two countries (US and UK) that consisted of 2 managers and 8 engineers.",
+        "Inherited a challenging project to improve main checkout experience, which was delivered with minimal defects and provided a stable foundation for a/b testing.",
+        "Partned with the business to create a roadmap for integrating with third party host platforms to bring more RV camp sites to Hipcamp.",
+        "Promoted 2 engineers and moved another engineer into management as part of their desired career path with coaching and mentorship."
+      ]
     }
   ]
 }
