@@ -1,4 +1,5 @@
 import resumeJson from './assets/resume.json'
+import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
 import Link from '@mui/material/Link'
 import Table from '@mui/material/Table'
@@ -19,19 +20,19 @@ function displayJobTable(tabValue: number) {
         <TableHead>
           <TableRow>
             <TableCell>Company</TableCell>
-            <TableCell>Role</TableCell>
-            <TableCell>Dates</TableCell>
             <TableCell>Description</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
           {resumeJson.jobs.map((job) => (
             <TableRow key={job.company}>
-              <TableCell>{job.company}</TableCell>
-              <TableCell>{job.role}</TableCell>
               <TableCell>
-                {dayjs(job.startDate).format('MMM YYYY')} -{' '}
-                {dayjs(job.endDate).format('MMM YYYY')}
+                <Typography variant="h6">{job.company}</Typography>
+                <Typography variant="body1">{job.role}</Typography>
+                <Typography variant="body2">
+                  {dayjs(job.startDate).format('MMM YYYY')} -{' '}
+                  {dayjs(job.endDate).format('MMM YYYY')}
+                </Typography>
               </TableCell>
               <TableCell>{displayJobDescripton(job, tabValue)}</TableCell>
             </TableRow>
@@ -71,11 +72,13 @@ export default function Resume() {
             mattmayo.com
           </Link>
         </Typography>
-        <Tabs value={tabValue} onChange={handleTabChange} centered>
-          <Tab key={0} label="Career" />
-          <Tab key={1} label="Technical" />
-          <Tab key={2} label="Leadership" />
-        </Tabs>
+        <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
+          <Tabs value={tabValue} onChange={handleTabChange} centered>
+            <Tab key={0} label="Role" />
+            <Tab key={1} label="Technical" />
+            <Tab key={2} label="Leadership" />
+          </Tabs>
+        </Box>
         {displayJobTable(tabValue)}
       </div>
     </>
